@@ -1,12 +1,24 @@
-# Tags: latest, 1.8.0-debian-10-r1, 1.8.0, 1-debian-10, 1
+# Tags: latest, 1.8.0-debian-10-r5, 1.8.0, 1-debian-10, 1
 FROM bitnami/cosign:latest
-FROM bitnami/cosign:1.8.0-debian-10-r1
+FROM bitnami/cosign:1.8.0-debian-10-r5
 FROM bitnami/cosign:1.8.0
 FROM bitnami/cosign:1-debian-10
 FROM bitnami/cosign:1
 
 # Tags: _
 FROM bitnami/cosign:_
+
+# Tags: 1.8.0-debian-10-r4
+FROM bitnami/cosign:1.8.0-debian-10-r4
+
+# Tags: 1.8.0-debian-10-r3
+FROM bitnami/cosign:1.8.0-debian-10-r3
+
+# Tags: 1.8.0-debian-10-r2
+FROM bitnami/cosign:1.8.0-debian-10-r2
+
+# Tags: 1.8.0-debian-10-r1
+FROM bitnami/cosign:1.8.0-debian-10-r1
 
 # Tags: 1.8.0-debian-10-r0
 FROM bitnami/cosign:1.8.0-debian-10-r0
@@ -88,15 +100,3 @@ FROM bitnami/cosign:1.6.0-debian-10-r25
 
 # Tags: 1.6.0-debian-10-r24
 FROM bitnami/cosign:1.6.0-debian-10-r24
-
-# Tags: 1.6.0-debian-10-r23
-FROM bitnami/cosign:1.6.0-debian-10-r23
-
-# Tags: 1.6.0-debian-10-r22
-FROM bitnami/cosign:1.6.0-debian-10-r22
-
-# Tags: 1.6.0-debian-10-r21
-FROM bitnami/cosign:1.6.0-debian-10-r21
-
-# Tags: 1.6.0-debian-10-r19
-FROM bitnami/cosign:1.6.0-debian-10-r19
